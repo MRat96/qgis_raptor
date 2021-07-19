@@ -7,4 +7,4 @@ class DlgTable(QDialog, Ui_dlgImpacts):
         super(DlgTable, self).__init__()
         self.setupUi(self)
 
-        self.tblImpacts.setColumnWidth(1, 350)
+        self.tbImpacts.setColumnWidth(1, 350)
